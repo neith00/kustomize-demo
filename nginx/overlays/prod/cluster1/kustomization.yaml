@@ -1,0 +1,4 @@
+resources:
+- ../../prod
+patches:
+- cpu_limit.yaml

@@ -1,0 +1,10 @@
+namePrefix: dev-
+commonLabels:
+  variant: dev
+commonAnnotations:
+  note: manifests for dev environement
+bases:
+- ../../base
+patches:
+- replicas_count.yaml
+#- cpu_limit.yaml

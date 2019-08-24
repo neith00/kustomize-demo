@@ -1,0 +1,9 @@
+namePrefix: prod-
+commonLabels:
+  variant: prod
+commonAnnotations:
+  note: manifests for prod environement
+resources:
+- ../../base
+patches:
+- replicas_count.yaml
