@@ -1,4 +1,4 @@
 resources:
-- ../../prod
+- ../kustomize.yaml
 patches:
 - cpu_limit.yaml

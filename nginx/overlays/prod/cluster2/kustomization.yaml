@@ -1,10 +1,4 @@
-namePrefix: prod-
-commonLabels:
-  variant: prod
-commonAnnotations:
-  note: manifests for prod environement
-bases:
-- ../../base
+resources:
+- ../kustomize.yaml
 patches:
-- replicas_count.yaml
-#- cpu_limit.yaml
+- cpu_limit.yaml
