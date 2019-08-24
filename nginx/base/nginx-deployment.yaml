@@ -17,3 +17,7 @@ spec:
       containers:
       - image: nginx:1.16.1
         name: nginx
+        resources:
+          limits:
+            cpu: 100m
+            memory: 128Mi
